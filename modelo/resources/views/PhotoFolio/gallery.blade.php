@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PhotoFolio Bootstrap Template - Index</title>
+  <title>PhotoFolio Bootstrap Template - Gallery</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="PhotoFolio/assets/img/aespa.jpg" rel="icon">
-  <link href="PhotoFolio/assets/img/aespa-logo-aba-pagina.png" rel="aespa-touch-icon">
+  <link href="PhotoFolio/assets/img/aespa.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,14 +47,14 @@
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="PhotoFolio/assets/img/logo.png" alt=""> -->
         <i class="bi bi-camera"></i>
-        <h1>aespa</h1>
+        <h1>PhotoFolio</h1>
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="#" class="active"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="gallery.html">Nature</a></li>
               <li><a href="gallery.html">People</a></li>
@@ -88,31 +88,22 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
-    <div class="logo">
-        <div>
-            <a href="https://www.youtube.com/@aespa">
-                <img src="PhotoFolio/assets/img/gallery/aespa-logo.png" alt="Logo da Empresa" class="logo">
-            </a>
+  <main id="main" data-aos="fade" data-aos-delay="1500">
 
+    <!-- ======= End Page Header ======= -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2>Black Mamba (16 images)</h2>
+            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
 
-        </div>
+            <a class="cta-btn" href="contact.html">Available for hire</a>
 
-    </div>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6 text-center">
-          <h2><span>AESPA</span>, O futuro do k-pop</h2>
-          <p>
-aespa é um grupo sul-coreano de k-pop formado pela SM Entertainment em 2020. É composto por quatro integrantes: Karina, Giselle, Winter e Ningning. Eles ganharam destaque rapidamente na cena do K-pop com seu conceito único de "K-pop do futuro", incorporando elementos de realidade virtual e inteligência artificial em suas músicas e performances. Seu single de estreia, "Black Mamba", recebeu uma recepção positiva e os ajudou a conquistar uma base de fãs global. Desde então, eles continuaram a lançar músicas e realizar atividades, consolidando sua posição como um dos grupos mais promissores da nova geração do K-pop.</p>
-          <a href="https://www.ktown4u.com/artistBrandlist?grp_no=2151657&utm_source=office&utm_medium=240422_banner_artistzone&utm_campaign=aespa_com_quickmenu_" class="btn-get-started">Compre aqui !</a>
+          </div>
         </div>
       </div>
-    </div>
-  </section><!-- End Hero Section -->
-
-  <main id="main" data-aos="fade" data-aos-delay="1500">
+    </div><!-- End Page Header -->
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
@@ -123,156 +114,148 @@ aespa é um grupo sul-coreano de k-pop formado pela SM Entertainment em 2020. É
             <div class="gallery-item h-100">
               <img src="PhotoFolio/assets/img/gallery/karina-blackmamba.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/karina-blackmamba.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/giselle-blackmamba.jpg" class="img-fluid" alt="" >
+              <img src="PhotoFolio/assets/img/gallery/karina-blackmamba2.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/giselle-blackmamba.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/karina-blackmamba2.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/winter-blackmamba.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-3.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/winter-blackmamba.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-3.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/2ning-blackmamba.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-4.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/2ning-blackmamba.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-4.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/karina-nextlevel.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-5.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/karina-nextlevel.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-5.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/giselle-nextlevel.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-6.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/giselle-nextlevel.jpg" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-6.jpg" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/winter-nextlevel.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-7.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/winter-nextlevel.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-7.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/2ning-nextlevel.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-8.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/2ning-nextlevel.jpg" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-8.jpg" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/karina-savage.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-9.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/karina-savage.jpg" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-9.jpg" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/giselle-savage.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-10.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/giselle-savage.jpg" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-10.jpg" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/winter-savage.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-11.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/winter-savage.jpg" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-11.jpg" title="Gallery 11" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/2ning-savage.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-12.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/2ning-savage.jpg" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-12.jpg" title="Gallery 12" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/karina-girls.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-13.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/karina-girls.jpg" title="Gallery 13" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-13.jpg" title="Gallery 13" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/giselle-girls.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-14.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/giselle-girls.jpg" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-14.jpg" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/winter-girls.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-15.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/winter-girls.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-15.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
           <div class="col-xl-3 col-lg-4 col-md-6">
             <div class="gallery-item h-100">
-              <img src="PhotoFolio/assets/img/gallery/2ning-girls.jpg" class="img-fluid" alt="">
+              <img src="PhotoFolio/assets/img/gallery/gallery-16.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="PhotoFolio/assets/img/gallery/2ning-girls.jpg" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="PhotoFolio/assets/img/gallery/gallery-16.jpg" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Gallery Item -->
-          <div class="col-xl-4 col-lg-5 col-md-7">
-            <div class="gallery-item h-100">
-                <img src="PhotoFolio/assets/img/gallery/2ning-spicy.jpg" class="img-fluid" alt="">
-                <div class="gallery-links d-flex align-items-center justify-content-center">
-                    <a href="PhotoFolio/assets/img/gallery/2ning-spicy.jpg" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                    <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
 
-                </div>
-
-      
+        </div>
 
       </div>
     </section><!-- End Gallery Section -->
@@ -290,7 +273,7 @@ aespa é um grupo sul-coreano de k-pop formado pela SM Entertainment em 2020. É
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
-        Designed by Victor e Giovanna
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
