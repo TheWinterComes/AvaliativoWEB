@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="PhotoFolio/assets/img/favicon.png" rel="icon">
-  <link href="PhotoFolio/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="PhotoFolio/assets/img/aespa-logo-aba-pagina.png" rel="icon">
+  <link href="PhotoFolio/assets/img/aespa-logo-aba-pagina.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,9 +52,9 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li><a href="/">Home</a></li>
+          <li><a href="/sobre" class="active">About</a></li>
+          <li class="dropdown"><a href="/galeria"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="gallery.html">Nature</a></li>
               <li><a href="gallery.html">People</a></li>
@@ -189,7 +189,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
-          <img class="img" src="PhotoFolio/assets/img/gallery/blackmamba-logo.png" alt="
+         
           
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
