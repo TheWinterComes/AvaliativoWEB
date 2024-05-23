@@ -36,8 +36,8 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-@yield('menu')
-@section
+
+
 <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid d-flex align-items-center justify-content-between">
 
@@ -68,7 +68,6 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
     </div>
-@endsection
 <body>
 
   <!-- ======= Header ======= -->
